@@ -12,11 +12,11 @@ while n < j
 	if n%3 == 0 && n%5 == 0
 		puts string3
 	elsif n % 3 == 0
-	puts string1
+		puts string1
 		elsif n % 5 == 0
-	puts string2
+		puts string2
 	else
-	puts n
+		puts n
 	end
 
 end
