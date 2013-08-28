@@ -27,9 +27,19 @@ describe Enumerable do
 		expect(result).to eq(["chicken1","beans1","coconuts1","honey1"])
 	end
 
-	# it 'should find all permutations of words with 5 characters'
-	# 	result = @a.each
-	# 	.permutation {|x| ana = x.join puts ana if }
-
+	it 'should find all permutations of the shortest word with 5 characters' do
+		#splits the current array of words into individual letters
+		letters = @a.map {|x| x.split(//) }
+		#finds the word with the least amount of letters
+		shortwordletters = letters.min
+		#all the permutations of the letters for the shortest word
+		perms = shortwordletters.permutation.to_a 
+		#join permutations back together to form a word and show the first 5
+		joined = perms.map {|x| x.join}
+		result = joined.slice(0..4)
+		#final test
+		expect(result).to eq(["beans","beasn","benas","bensa","besan"])
+	end
+		
 
 end  
