@@ -101,17 +101,100 @@
 # puts sc_players[1...3].inspect
 # puts sc_players[2..4].inspect
 
-(2..22).each {|number| print ' '; print number }
-puts "\n"
-(-5..5).each {|number| print ' '; print number }
+# (2..22).each {|number| print ' '; print number }
+# puts "\n"
+# # (-5..5).each {|number| print ' '; print number }
+
+# ('a'..'z').each {|letter| print ' '; print letter}
+# puts "\n "
+# ('bbb'..'bbk').each {|letter| print ' '; print letter}
+# puts "\n"
+# ('a').upto('c') {|letter| print ' ';print letter}
+# puts "\n"
+# (1).upto(6) {|letter| print ' '; print letter}
+# puts "\n"
+# 5.times {|letter| print " * "}
+
+# today = :good
+# if (today == :good)
+#   print 'Today is good day !'
+# end
 
 
+# today = :okay
 
+# if (today == :good)
+#   print 'Today is good day !'
+# elsif (today == :bad)
+#   puts "Today is kinda bad day !"
+# else
+#   puts "I have no idea about this day"
+# end
 
+# ate_too_much = true
+# great_idea = false
 
+# puts "You stuffed yourself !" if ate_too_much
+# puts "awww .. well ,try again" if !great_idea
 
+# ate_too_much = true
+# great_idea = false
 
+# puts "You stuffed yourself !" if ate_too_much
+# puts "awww .. well ,try again" unless great_idea
 
+# have_5_dollars = true
+# unless have_5_dollars
+#   puts "Beg for money"
+# else
+#   puts "Get a beer !"
+# end
+
+# gorilla_strong = true
+# dog_food_tastes_good = false
+
+# x = gorilla_strong == true ? "Oh no! Run  !!" : "Stupid ape"
+# y =dog_food_tastes_good == true ? "Yum ! dog food " : "Man that's nasty how can you eat that ?"
+
+# puts x
+# puts y
+
+# arr = %w(Viper Testarossa Pinto)
+# for x in arr
+#   puts x
+# end
+
+# hash = {:walking =>'good', :smoking => 'bad'}
+# for key, value in hash
+#   puts "#{key} = #{value} "
+# end
+
+# x = 1000000
+# y = 0
+# while x > 1
+#   y = y + 2
+#   x = x - 1
+# end
+#   puts y 
+
+# def method_one
+#   puts "Whatever"
+# end
+
+# mental_state = :not_insane
+# x = 0
+# until (mental_state == :insane)
+#   puts "Serenity Now"
+#   x += 1
+#   mental_state = :insane if x > 4
+# end
+
+num1 = 0 
+num2 = 0
+ num1 = num1 + 2 while (num1 < 20)
+ num2 = num2 + 2 until (num2 > 18)
+puts num1
+puts num2
 
 
 
