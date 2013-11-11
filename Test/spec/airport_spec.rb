@@ -1,44 +1,42 @@
 
-require 'airport.rb'
+require 'spec_helper'
+
 
 describe Airport do
-	
-	it 'application should be able to create one ore more airports' do
-	airport =Airport.new
-	expect(Airport.new).to be_true
-	end
-	
+	let(:airport) {Airport.new}
+	let(:plane) {Plane.new} 
 	it'should contain a collection of planes' do
-	# planes = double [:planes]
-	airport = Airport.new [:planes]
-	expect(airport).to have_planes 
+		airport =Airport.new(@planes=[])
+		@planes << Plane.new
+		expect(@planes.count).not_to eq 0
 	end
 
 	it 'could have no planes at all' do
-	# planes = double :planes
-	airport = Airport.new
-	expect(airport).not_to have_planes 
+		expect(airport).not_to have_planes 
 	end
 	
-	it 'should have a STORMY weather condition' do
-	
-	airport =Airport.new 
-	expect(airport).to have_stormy_weather
-	end 
+	it 'has a maximum capacity' do 
+    expect(airport.max_capacity).to eq 10   
+  end
 
-	it 'should have a SUNNY weather condition' do
-		airport = Airport.new 
-		expect(airport).to have_sunny_weather
+	it 'should have a STORMY weather condition on 50 % 50' do
+		expect(airport).to have_stormy_weather
+	end 
+	
+	it 'should have a SUNNY weather condition on 50 % 50' do
+			expect(airport).to have_stormy_weather
 	end
 	
-	it 'is full' do
-	airport =Airport.new
-	expect(airport.is_full?).to be_true
-	
+	it 'is full with planes' do
+		expect(airport.is_full?).to be_true
 	end
+	
 	it 'is not full' do 
-	airport =Airport.new
-	@planes =[1,2,3,4,5]
+		
+		airport =Airport.new(@planes=[])
+		@planes = 1.upto(5).to_a
+		@planes << plane
+		expect(airport).not_to eq @max_capacity 
 
 	end
 
