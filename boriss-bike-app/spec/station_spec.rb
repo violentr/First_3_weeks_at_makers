@@ -1,4 +1,4 @@
-require 'station'
+require'spec_helper'
 
 describe Station do
 	
@@ -32,7 +32,7 @@ describe Station do
 	it 'does not rent a bike if there are no bikes' do
 		station = Station.new
 
-		expect{station.rent_bike}.to raise_error "No bikes in Station"
+		expect{station.rent_bike}.to raise_error(RuntimeError,"No bikes at the station")
 		#using curly braces here because block that raises error in block vs breaking program
 	end
 

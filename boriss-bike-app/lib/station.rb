@@ -9,7 +9,7 @@ class Station
 	end
 
 	def rent_bike
-		raise "No bikes in station" if !has_bikes?
+		raise "No bikes at the station" if !has_bikes?
 		@bikes.pop
 	end
 

@@ -1,3 +1,4 @@
+
 class Person
 
 	def initialize bike = nil

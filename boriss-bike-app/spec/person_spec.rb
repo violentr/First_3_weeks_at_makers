@@ -1,8 +1,7 @@
-require 'person'
+require 'spec_helper'
 
 describe Person do
 	let(:person) {Person.new}
-
 	it 'has no bike' do
 		expect(subject).not_to have_bike
 	end
@@ -40,11 +39,9 @@ describe Person do
 	end
 
 	it 'can break a bike in an accident' do
-		bike = double :bike
+		bike =double :bike
 		expect(bike).to receive(:break!)
-
-		person = Person.new
-
+		person =Person.new bike
 		person.accident
 	end
 
