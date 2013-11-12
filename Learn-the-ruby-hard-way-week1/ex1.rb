@@ -1,22 +1,19 @@
 
-n = 1
-j = 100
-string1 ="Fizz"
-string2 ="Buzz"
-string3 ="Fizbuzz"
+start_number= 1
+finish_number = 100
+fizz ="Fizz"
+buzz ="Buzz"
+fizzbuzz ="Fizbuzz"
 
-while n < j
-	
-	n = n + 1 
-
-	if n%3 == 0 && n%5 == 0
-		puts string3
-	elsif n % 3 == 0
-	puts string1
-		elsif n % 5 == 0
-	puts string2
+while start_number < finish_number
+	start_number += 1 
+if start_number % 3 == 0 && start_number % 5 == 0
+		puts "#{start_number} " + fizzbuzz
+	elsif start_number % 3 == 0
+		puts "#{start_number} " + fizz
+	elsif start_number % 5 == 0
+		puts "#{start_number} " + buzz
 	else
-	puts n
+		puts "#{start_number} "
 	end
-
 end
