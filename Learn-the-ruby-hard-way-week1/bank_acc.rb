@@ -22,9 +22,8 @@ class Account #require accounts.rb
 	end
 	def status
 		return @balance
-		puts "Balance: "+balance.to_s
+		puts "Balance: #{balance}"
 	end
 end
-bob_acc =Account.new(10,"Bob",'07588856931')
-den_acc =Account.new(100,"Den",'56464654')
+bob_acc =Account.new(10,"Bob",'07546456456')
 mary_acc =Account.new(1000,"Mary",'6786876876')
