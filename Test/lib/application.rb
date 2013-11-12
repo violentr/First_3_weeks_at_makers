@@ -1,12 +1,14 @@
  class Application
-   def initialize
+
+  def initialize
      @airports = []
-   end
+  end
 
  	def add_airport(airport) 
      @airports << airport 
-   end
-   def airports 
+  end
+  
+  def airports 
      @airports  
-   end
+  end
 end  

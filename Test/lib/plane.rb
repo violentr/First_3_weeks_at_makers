@@ -1,3 +1,4 @@
+require 'airport'
 class Plane
 	
 	def take_off_from airport
@@ -6,6 +7,10 @@ class Plane
 	
 	def land_at airport
 	
+	end
+
+	def dont_land_at airport
+ 		
 	end 
 
 	def dont_take_off_from airport
@@ -13,10 +18,10 @@ class Plane
 	end
 	
 	def has_sunny_weather?
-	true
+		true
 	end
 
 	def has_stormy_weather?
-	true
+		true
 	end
 end
