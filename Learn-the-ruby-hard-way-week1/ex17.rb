@@ -1,17 +1,7 @@
-#1st version
-=begin
-from_file , to_file =ARGV
-puts "please enter the source file:"
-from_file =STDIN.gets.chomp
-puts "please enter the destination file (copy)"
-to_file =STDIN.gets.chomp
-#to_file ='file2.txt'
-=end
 
 puts "please enter the source file:"
 from_file =gets.chomp
 puts "please enter the destination file (copy)"
-#to_file =gets.chomp
 to_file ='file2.txt'
 puts ""
 script = $0
@@ -23,7 +13,7 @@ puts ""
 input = File.open(from_file)
 indata = input.read()
 puts "The input file is #{indata.length} bytes long"
-#puts "Does the output file exists? #{File.exists? to file}"
+puts "Does the output file exists? #{File.exists?(to_file)}"
 puts "Ready ,hit ENTER to continue , Ctrl-C to abort."
 STDIN.gets
 output =File.open(to_file, "w")
@@ -37,4 +27,5 @@ puts "New content of #{to_file} is : "
 puts "*****" *10
 output =File.open(to_file)
 puts output.read
+output.close
 

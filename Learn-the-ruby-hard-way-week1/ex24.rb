@@ -31,7 +31,7 @@ beans, jars, crates = secret_formula(start_point) #10000
 
 puts "With a starting point of: #{start_point}"
 puts "We'd have #{beans} beans, #{jars} jars, and #{crates} crates."
-#start_point = start_point / 10
+
 puts "Now we have start_point: #{start_point}"
 
 puts "We can also do that this way:"
