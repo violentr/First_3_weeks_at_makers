@@ -14,14 +14,14 @@ Were introduced Ruby classes:
  <li>ARGF</li>
  <li> and others</li>
  </ul>
- <p>Also in order to write more complex programs I have learned loops, conditions, statements .. writing own methods (defs)</p>
+ <p>Also in order to write more complex programs I have learned loops, conditions, statements .. writing own methods <b>(defs)</b></p>
 <b>Tools:</b> Ruby 2.0
 
 <a href="https://github.com/violentr/First_3_weeks_at_makers/tree/master/week2"><b>Second week at makers</b></a> was really challenging we've build programs: 
 
 <b>Filename:</b> anagramma.rb</br>
 <b>Challenge:</b> To write a program which shows are the given words can produce an anagram (the result of rearranging the letter of a word to produce a new word)
-<b>Example:</b> "rats" in refverse is "star"
+<b>Example:</b> "rats" in reverse is "star"
 <b>Tools:</b> Ruby 2.0 and Rspec
  
 <b>Filename:</b> fizzbuzz.rb test.rb, test_t.rb (different implementations)</br>
@@ -32,11 +32,11 @@ Were introduced Ruby classes:
 <li>Number 3 -Fizz</li>
 </ul>
 <p>I was able to improve my coding technique.
-Writing more efficient code with Test Driven Development technique, was used Rspec, examples could be found in spec folder.I also had my code notes also could be found <a href="https://github.com/violentr/First_3_weeks_at_makers/tree/master/week2">here.</a></p>
+Writing more efficient code with Test Driven Development concepts, examples could be found in spec folder.I also had my code notes also could be found <a href="https://github.com/violentr/First_3_weeks_at_makers/tree/master/week2">here.</a></p>
 <b>Tools:</b> Ruby 2.0 and Rspec
 
 <a href="https://github.com/violentr/First_3_weeks_at_makers/tree/master/boriss-bike-app"><b>Boriss bike app</b></a></br>
-<b>Challenge:</b>Implementing app which helps to control usage of bikes to residents of the city.
+<b>Challenge:</b> Implementing app which helps to control usage of bikes to residents of the city.
 <b>Tools:</b> Ruby 2.0 and test framework Rspec
 <p>Were introduced Mocks and Stubs testing with (double) techniques (spec folder)</p>
 
