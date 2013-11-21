@@ -19,12 +19,12 @@ Were introduced Ruby classes:
 
 <a href="https://github.com/violentr/First_3_weeks_at_makers/tree/master/week2"><b>Second week at makers</b></a> was really challenging we've build programs: 
 
-<b>Filename:</b> anagramma.rb
+<b>Filename:</b> anagramma.rb</br>
 <b>Challenge:</b> To write a program which shows are the given words can produce an anagram (the result of rearranging the letter of a word to produce a new word)
 <b>Example:</b> "rats" in refverse is "star"
 <b>Tools:</b> Ruby 2.0 and Rspec
  
-</b>Filename:</b> fizzbuzz.rb test.rb, test_t.rb (different implementations)
+<b>Filename:</b> fizzbuzz.rb test.rb, test_t.rb (different implementations)</br>
 <b>Challenge:</b> To write a program that shows given numbers could be divided by 15 if yes then instead of number write <b>FizzBuzz</b>, divided by 5 (write <b>Buzz</b>) and divided by 3 (write <b>Fizz</b>).
 <ul>
 <li>Example: Number 15 - FizzBuzz</li>
@@ -35,12 +35,12 @@ Were introduced Ruby classes:
 Writing more efficient code with Test Driven Development technique, was used Rspec, examples could be found in spec folder.I also had my code notes also could be found <a href="https://github.com/violentr/First_3_weeks_at_makers/tree/master/week2">here.</a></p>
 <b>Tools:</b> Ruby 2.0 and Rspec
 
-<a href="https://github.com/violentr/First_3_weeks_at_makers/tree/master/boriss-bike-app"><b>Boriss bike app</b></a>
+<a href="https://github.com/violentr/First_3_weeks_at_makers/tree/master/boriss-bike-app"><b>Boriss bike app</b></a></br>
 <b>Challenge:</b>Implementing app which helps to control usage of bikes to residents of the city.
 <b>Tools:</b> Ruby 2.0 and test framework Rspec
-<p>Was introduced Mocks and Stubs testing with (double) techniques (spec folder)</p>
+<p>Were introduced Mocks and Stubs testing with (double) techniques (spec folder)</p>
 
-<a href="https://github.com/violentr/First_3_weeks_at_makers/tree/master/Friday-Test-Airport-App"><b>Friday Test Airport App</b></a>
+<a href="https://github.com/violentr/First_3_weeks_at_makers/tree/master/Friday-Test-Airport-App"><b>Friday Test Airport App</b></a></br>
 <b>Challenge:</b> Write a program what helps to perform following tasks:
 <ul>
 <li>Coordinate plane operations based on whether forecast and trigger different operations based on the forecast.</li>
