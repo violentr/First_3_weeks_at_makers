@@ -12,7 +12,7 @@ Were introduced Ruby classes:
  <li>Hash</li>
  <li>File</li>
  <li>ARGF</li>
- <li> and others ></li>
+ <li> and others</li>
  </ul>
  <p>Also in order to write more complex programs I have learned loops, conditions, statements .. writing own methods (defs)</p>
 <b>Tools:</b> Ruby 2.0
@@ -43,7 +43,7 @@ Writing more efficient code with Test Driven Development technique, was used Rsp
 <a href="https://github.com/violentr/First_3_weeks_at_makers/tree/master/Friday-Test-Airport-App"><b>Friday Test Airport App</b></a>
 <b>Challenge:</b> Write a program what helps to perform following tasks:
 <ul>
-<li>Coordinate plane operations based on whether forecast and trigger different operations based on the forecast.<li>
+<li>Coordinate plane operations based on whether forecast and trigger different operations based on the forecast.</li>
 <li>Make full control over amount of planes coming and leaving from the airports and make sure that enough space & resource is available to keep planes over night.</li>
 <li>Control over airport runway, asking and receiving permissions of actions that may be taken.</li>
 <li>Program Bomb Scare, where operations are restricted and system to call it of, so operations may return to normal.</li>
