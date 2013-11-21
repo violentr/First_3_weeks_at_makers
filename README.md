@@ -2,11 +2,11 @@
 =======================
 
 This repository contains projects that was done in first 3 weeks at makers academy.
-Folder Learn-ruby-the-hard-way contains my learning process of Ruby.
+Folder <a href="https://github.com/violentr/First_3_weeks_at_makers/tree/master/Learn-the-ruby-hard-way-week1"><b>Learn-ruby-the-hard-way</b></a> contains my learning process of Ruby.
 Were introduced Ruby classes: Numeric, Integer, Float, String, Array, Hash, File, ARGF and many others. Also in order to write more complex programs I have learned loops, conditions, statements .. writing own methods (defs)
 Tools: Ruby 2.0
 
-Second week at makers was really challenging we've build program 
+<a href="https://github.com/violentr/First_3_weeks_at_makers/tree/master/week2"><b>Second week at makers</b></a> was really challenging we've build program 
 
 File: anagramma.rb
 Challenge: To write a program which shows are the given words can produce an anagram (the result of rearranging the letter of a word to produce a new word)
